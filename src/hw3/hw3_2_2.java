@@ -9,10 +9,10 @@ public class hw3_2_2 {
 	        Scanner sc = new Scanner(System.in); // 建立輸入物件
 	        System.out.println("請猜數字：");
 	        
-	        
+	        int guessNumber = (int)(Math.random() * 100); // 0~100 的亂數
 	        while(true) {
 	        int a = sc.nextInt(); // 輸入猜的數字
-		       int guessNumber = (int)(Math.random() * 9); // 0~9 的亂數
+		       
 	        if (a == guessNumber) {
 	            System.out.print("猜對了");
 	            break;
