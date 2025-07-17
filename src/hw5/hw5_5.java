@@ -20,6 +20,6 @@ public class hw5_5 {
 	}
 
 	public static void main(String[] args) {
-		genAuthCode(8);
+		genAuthCode(10);
 	}
 }
